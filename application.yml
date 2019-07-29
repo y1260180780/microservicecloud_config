@@ -1,0 +1,15 @@
+spring:
+    profiles:
+        active:
+        - dev
+---
+spring:
+    profiles: dev
+    application:
+        name: microservicecloud_config_yanxianyu_dev
+---
+spring:
+    profiles: test
+    application:
+        name: microservicecloud_config_yanxianyu_test
+#保存格式UTF-8  #开发环境    #测试环境
